@@ -1,0 +1,7 @@
+<?php $helper = $this->helper('Smarty\Zarpoo\Helper\Data'); ?>
+<?php if ($helper->isLoggedIn()) : ?>
+    Oi! Eu sou um bloco estático exibido apenas para clientes
+    cadastrados!
+<?php
+endif;
+?>
